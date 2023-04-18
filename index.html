@@ -1,9 +1,59 @@
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="wp-block-heading has-text-align-center">Minecraft Server Manager</h3>
-<!-- /wp:heading -->
-
-<!-- wp:jetpack/contact-form {"className":"is-style-default"} -->
-<div class="wp-block-jetpack-contact-form is-style-default"><!-- wp:jetpack/field-text {"requiredText":"(required)","width":25} /-->
-
-<!-- wp:jetpack/button {"element":"button","text":"Submit","lock":{"remove":true}} /--></div>
-<!-- /wp:jetpack/contact-form -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minecraft Server Manager</title>
+	<style>
+		/* Set the background color of the body to white */
+		body {
+			background-color: white;
+		}
+		
+		/* Set the style for the buttons */
+		.button {
+			background-color: black;
+			color: white;
+			font-size: 16px;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			margin-right: 10px;
+		}
+		
+		/* Set the style for the grey boxes */
+		.box {
+			background-color: #f2f2f2;
+			padding: 20px;
+			border-radius: 5px;
+			display: inline-block;
+			vertical-align: top;
+			width: 48%;
+		}
+		
+		/* Set the style for the container that holds the grey boxes */
+		.container {
+			margin-top: 50px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<!-- Create the container for the buttons and title -->
+	<div style="position: absolute; top: 0; left: 0;">
+		<h1>Minecraft Server Manager</h1>
+		<button class="button">Start Server</button>
+		<button class="button">Stop Server</button>
+	</div>
+	
+	<!-- Create the container for the grey boxes -->
+	<div class="container">
+		<div class="box" style="margin-right: 2%;">
+			<h2>Console</h2>
+			<!-- Add the code for the console here -->
+		</div>
+		<div class="box" style="margin-left: 2%;">
+			<h2>Files</h2>
+			<!-- Add the code for the files here -->
+		</div>
+	</div>
+</body>
+</html>
